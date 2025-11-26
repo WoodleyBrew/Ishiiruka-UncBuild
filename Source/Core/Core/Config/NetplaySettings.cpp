@@ -30,7 +30,7 @@ const ConfigInfo<u16> NETPLAY_LISTEN_PORT{{System::Main, "NetPlay", "ListenPort"
 const ConfigInfo<bool> NETPLAY_IS_SPECTATOR{{System::Main, "NetPlay","IsSpectator"}, false };
 const ConfigInfo<bool> NETPLAY_IS_MUSIC_OFF{{System::Main, "NetPlay","MusicOff"}, false };
 
-const ConfigInfo<std::string> NETPLAY_NICKNAME{{System::Main, "NetPlay", "Nickname"}, "Player"};
+const ConfigInfo<std::string> NETPLAY_NICKNAME{{System::Main, "NetPlay", "Nickname"}, "AYO BLITZ"};
 const ConfigInfo<std::string> NETPLAY_SELECTED_HOST_GAME{
     {System::Main, "NetPlay", "SelectedHostGame"}, ""};
 const ConfigInfo<bool> NETPLAY_USE_UPNP{{System::Main, "NetPlay", "UseUPNP"}, false};
