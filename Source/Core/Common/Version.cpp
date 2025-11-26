@@ -8,7 +8,7 @@
 
 namespace Common
 {
-#define VERSION_STR "FPM v3.1.2 BETA"
+#define VERSION_STR "ONPM v3.1.5_03"
 #ifdef _DEBUG
 #define BUILD_TYPE_STR "Debug "
 #elif defined DEBUGFAST
@@ -17,7 +17,7 @@ namespace Common
 #define BUILD_TYPE_STR ""
 #endif
 
-const std::string scm_rev_str = "Ishiiruka-Dolphin"
+const std::string scm_rev_str = "UncBuild"
 #if !SCM_IS_MASTER
 "[" SCM_BRANCH_STR "] "
 #endif
